@@ -1,0 +1,32 @@
+{
+  "name": "nest-config",
+  "version": "0.0.0-dev",
+  "description": "Nest config module",
+  "main": "dist/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlight/nest-config.git"
+  },
+  "keywords": [
+    "nest",
+    "config",
+    "convict"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unlight/nest-config/issues"
+  },
+  "homepage": "https://github.com/unlight/nest-config#readme",
+  "peerDependencies": {
+    "@nestjs/common": ">=5.0.0 <6"
+  },
+  "devDependencies": {
+    "reflect-metadata": "^0.1.12",
+    "@types/convict": "^4.2.0",
+    "rxjs": "^6.0.0"
+  },
+  "dependencies": {
+    "convict": "^4.2.0"
+  }
+}
