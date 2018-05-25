@@ -13,7 +13,7 @@
     "test:w": "npm run mocha -- --watch-extensions ts --watch src/**/*.spec.ts",
     "test": "npm run test:r",
     "test:r": "npm run mocha -- src/*.spec.ts",
-    "semantic-release": "node -r ts-node/register/transpile-only node_modules/semantic-release/bin/semantic-release.js",
+    "semantic-release": "semantic-release",
     "prepublishOnly": "npm run build",
     "build": "tsc",
     "prebuild": "npm run clean",
