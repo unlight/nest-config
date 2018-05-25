@@ -1,6 +1,6 @@
 {
   "name": "nest-config",
-  "version": "0.0.0-dev",
+  "version": "1.0.0",
   "description": "Nest config module",
   "main": "dist/index.js",
   "typings": "src/index.ts",
