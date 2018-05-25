@@ -1,15 +1,14 @@
 import { Injectable } from '@nestjs/common';
 import * as convict from 'convict';
-import { Config } from './app.config';
 
 @Injectable()
-export class ConfigService {
+export class ConfigService<T = any> {
 
     constructor(
-        private config: convict.Config<Config>
+        private readonly config: convict.Config<T>
     ) { }
 
-    get<T = any>(key: string): T {
+    get<R = any>(key: string) {
         return this.config.get(key);
     }
 }
