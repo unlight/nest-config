@@ -47,6 +47,7 @@
     "@types/convict": "^4.2.0",
     "@types/mocha": "^5.2.0",
     "@types/node": "^10.1.2",
+    "conventional-changelog-eslint": "^1.0.9",
     "cz-adapter-eslint": "^0.1.2",
     "mocha": "^5.2.0",
     "reflect-metadata": "^0.1.12",
