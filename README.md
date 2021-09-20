@@ -1,3 +1,4 @@
+# Deprecated in flavor of @nestjs-steroids/environment
 # nest-config
 Configuration module for Nest.js (wraps [convict](https://github.com/mozilla/node-convict) module).
 
